@@ -1,13 +1,11 @@
 # Add  code here!
 def prime(integer)
   counter = 2
-  if number > 1
-    range = (start..number-1).to_a
-    return FALSE
-    
-  integer += 1
-  
-  integer % x == 0
-  
-  
-end
+  if integer > 1
+    range = (start..integer-1).to_a
+    range.none? do |num|
+      integer % num == 0
+    end
+  else FALSE
+  end
+  end
