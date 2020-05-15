@@ -1,6 +1,6 @@
 # Add  code here!
-def prime(integer)
-  counter = 2
+def prime?(integer)
+  start = 2
   if integer > 1
     range = (start..integer-1).to_a
     range.none? do |num|
