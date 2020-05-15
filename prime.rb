@@ -1,5 +1,10 @@
 # Add  code here!
 def prime(integer)
-  integer = 0
+  integer = 1
+  if n <= 1
+    return FALSE
+    
   integer += 1
+  
+  integer % x == 0
   
